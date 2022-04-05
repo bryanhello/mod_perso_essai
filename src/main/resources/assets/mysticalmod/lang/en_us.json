@@ -1,7 +1,14 @@
 {
-  "item.mysticalmod.elenite": "Elenite",
+  "item.mysticalmod.elenite_ingot": "Elenite Ingot",
+
+  "block.mysticalmod.elenite_ore": "Elenite Ore",
 
 
 
-  "itemgroup.mysticaltab": "Mystical Tab"
+  "itemGroup.mysticaltab": "Mystical Tab",
+
+  "item.mysticalmod.elenite_helmet": "Elenite Helmet",
+  "item.mysticalmod.elenite_chestplate": "Elenite Chestplate",
+  "item.mysticalmod.elenite_leggings": "Elenite Leggings",
+  "item.mysticalmod.elenite_boots": "Elenite Boots"
 }

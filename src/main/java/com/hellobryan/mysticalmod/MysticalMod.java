@@ -1,5 +1,6 @@
 package com.hellobryan.mysticalmod;
 
+import com.hellobryan.mysticalmod.block.ModBlocks;
 import com.hellobryan.mysticalmod.item.ModItems;
 import com.mojang.logging.LogUtils;
 import net.minecraft.world.level.block.Block;
@@ -35,6 +36,7 @@ public class MysticalMod
         IEventBus eventbus = FMLJavaModLoadingContext.get().getModEventBus();
 
         ModItems.register(eventbus);
+        ModBlocks.register(eventbus);
         eventbus.addListener(this::setup);
 
         MinecraftForge.EVENT_BUS.register(this);

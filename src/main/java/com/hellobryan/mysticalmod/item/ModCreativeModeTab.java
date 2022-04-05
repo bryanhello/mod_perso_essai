@@ -8,7 +8,7 @@ public class ModCreativeModeTab {
     public static final CreativeModeTab MYSTICAL_TAB = new CreativeModeTab("mysticaltab") {
         @Override
         public @NotNull ItemStack makeIcon() {
-            return new ItemStack(ModItems.ELENITE.get());
+            return new ItemStack(ModItems.ELENITE_INGOT.get());
         }
     };
 
